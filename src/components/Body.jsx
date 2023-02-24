@@ -1,9 +1,10 @@
 import React from 'react'
+import hero from '../assets/images/illustration-hero.svg'
 
 const Body = () => {
   return (
     <div className='text-sm border-solid border-red-500 border-2 rounded-lg bg-white flex flex-col items-center '>
-        <img src="./src/assets/images/illustration-hero.svg" alt="illustrationhero" className='rounded-t-3xl' />
+        <img src={hero} alt="illustrationhero" className='rounded-t-3xl' />
         <h1 className='pt-4 border-solid border-red-500 border-2 font-bold'>
             Order Summary
         </h1>
