@@ -1,13 +1,13 @@
 import './index.css'
+import Body from './components/Body'
 
 function App() {
   
 
   return (
-    <div className="App">
-      <h1 className='text-red-500 text-3xl'>HOLA MUNDO</h1>
-      
-    </div>
+    <>
+      <Body/>
+    </>
   )
 }
 

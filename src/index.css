@@ -9,13 +9,13 @@
   text-align: center;
 }
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: hsl(223, 47%, 23%);
+  background-color: hsl(225, 100%, 94%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,4 +23,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+/* Centro el body en la pagina */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
