@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index","./src/**/*.{js,jsx}"],
+  content: ["./index.html","./src/**/*.{js,jsx}"],
   theme: {
     letterSpacing: {
       tightest: '-.06em',
@@ -25,7 +25,8 @@ module.exports = {
           1: 'hsl(225, 100%, 94%)'
         },
         brightblue: {
-          1: 'hsl(245, 75%, 52%)'
+          1: 'hsl(245, 75%, 52%)',
+          2: '#766cf1'
         },
         verypaleblue: {
           1: 'hsl(225, 100%, 98%)'

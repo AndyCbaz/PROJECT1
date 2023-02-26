@@ -7,15 +7,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
+
 :root {
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: hsl(223, 47%, 23%);
-  background-color: hsl(225, 100%, 94%);
+  /* background-color: hsl(225, 100%, 94%); */
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,4 +31,5 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
+  @apply bg-[url(/src/assets/images/pattern-background-mobile.svg)] bg-cover lg:bg-[url(/src/assets/images/pattern-background-desktop.svg)] lg:bg-cover
 }
